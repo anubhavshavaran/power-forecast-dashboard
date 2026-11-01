@@ -1,0 +1,13 @@
+.DS_Store
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+*.py[cod]
+node_modules/
+dist/
+coverage/
+data/cache/*.json
+!data/cache/.gitkeep
+
