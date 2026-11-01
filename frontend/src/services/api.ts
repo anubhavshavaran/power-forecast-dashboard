@@ -6,7 +6,7 @@ import type {
   ProcurementResponse,
 } from "../types/api";
 
-const baseUrl = "https://backend-chi-ebon-25.vercel.app/api/"
+const baseUrl = (import.meta.env.BASE_URL).replace(/\/$/, "");
 
 export class ApiError extends Error {
   constructor(
