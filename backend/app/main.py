@@ -5,7 +5,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
 from app.api.routes import router
-from app.core.config import get_settings
+from app.utils.config import get_settings
 from app.services.cache import CacheStore
 from app.services.repository import DataUnavailableError, DatasetRepository
 
