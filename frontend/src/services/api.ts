@@ -6,7 +6,7 @@ import type {
   ProcurementResponse,
 } from "../types/api";
 
-const baseUrl = (import.meta.env.BASE_URL).replace(/\/$/, "");
+const baseUrl = import.meta.env.BASE_URL;
 
 export class ApiError extends Error {
   constructor(
